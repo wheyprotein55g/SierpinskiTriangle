@@ -3,7 +3,7 @@ void setup() {
 }
 
 void draw() {
-  background(0);
+  background(255, 133, 253);
   sierpinski(50, 50, 400);    
   text("MOUSE X: " + mouseX, 75, 400);
   text("MOUSE Y: " + mouseY, 75, 425);
